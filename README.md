@@ -14,7 +14,7 @@ on the future.
 '''
   output >> Hello World
 '''
-2. SOLUTION, **NOTE** ***::*** the code is in the folder with de nade First Program
+2. **NOTE** ***::*** the code is in the folder with de nade First Program
 
 <img src = "./First_Program/static/img/First_Program.png">
 
