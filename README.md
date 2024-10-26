@@ -11,9 +11,9 @@ on the future.
 ## PROGRAMS
 ### First Program
 1. You have to make a program, that it show a message in the console.
-´´´
+"""
   output >> Hello World
-´´´
+"""
 2. **NOTE** ***::*** the code is in the folder with de nade First Program
 
 <img src = "./First_Program/static/img/First_Program.png">
