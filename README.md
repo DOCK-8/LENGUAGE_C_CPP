@@ -1,7 +1,7 @@
 # LENGUAGE_C-
 ## Struct
 ### src
-This folder, is the basic struct for me, that i going to use for my PROJECT.
+This *folder*, is the basic struct for me, that i going to use for my **PROJECT**.
 So, in this space, You find folders for header, cpp file and other file to cpp project
 ### execute
 It have a execute file, that this are file to execute the compile program.
