@@ -12,4 +12,8 @@ on the future.
 ### First Program
 1. You have to make a program, that it show a message in the console.
 
-<MESSAGE> = "Hello World"
+  [MESSAGE] = "Hello World"
+2. SOLUTION, **NOTE** ***::*** the code is in the folder with de nade First Program
+
+<img src = "./First_Program/static/img/First_Program.png">
+
