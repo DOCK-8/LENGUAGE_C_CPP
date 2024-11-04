@@ -14,11 +14,30 @@ Si conocemos ¿Qué es? entonces ahora es necesario saber como usarlo
 ### FUNCIONES
 **msgget()**
 Esta funcion permite abrir o crear una nueva cola de mensajes
-**msgnd()**
+**msgsnd()**
 Esta nos permite agregar un mensaje al final de la cola
 especificando su tamaño del mensaje 
-'''
-<message> : contenor
+```
+[message] : contenor
+```
+**msgrcv()**
+Este nos permite obtener mensajes de la cola, aclaracion como es una cola
+este sera: "Extraigo el primero que entro"
+```
+```
+## MESSAGE
+**struct**
+```
+#define MAX_VALUE = 50
+struct msg_queue{
+  long type_message;
+  char content [MAX_VALUE];
+};
 ```
 
-
+**glosary**
+*ftok()* : genera una unique key
+*msgget()* : genera o accede a una cola de mensajes
+*msgsnd()* : agrega un nuevo mensaje a la cola
+*msgrcv()* : accede a un mensaje de la cola one-get one-out
+*msgctl()* : en lo general es usado para eliminar la cola de mensajes
