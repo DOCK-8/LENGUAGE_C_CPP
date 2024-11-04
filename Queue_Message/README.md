@@ -41,3 +41,41 @@ struct msg_queue{
 *msgsnd()* : agrega un nuevo mensaje a la cola  
 *msgrcv()* : accede a un mensaje de la cola one-get one-out  
 *msgctl()* : en lo general es usado para eliminar la cola de mensajes
+##EXAMPLE
+En este ejemplo lo que vamos hacer es una comunicacion entre procesos
+donde uno envia un mensaje que puede ser leido por otro, en este caso 
+se hace uso de un array de caracteres, para poder tener una variable 
+global entre procesos.
+###EMISOR
+```
+#include <stdio.h>
+#include <sys/ipc.h>
+#include <sys/msg.h>
+#define MAX_VALUE 50
+
+struct msg_queue{
+  long type_msg;
+  char content [MAX_VALUE];
+};
+
+int main (int n, char** argv){
+  key_t key;
+  int msgid;
+
+  key = ftok("progfile", 65);
+
+  msgid = msgget(key, 0666 | IPC_CREAT);
+  if( msgid==-1){
+    printf("Error al momento de crear una cola de mensajes");
+    return 1;
+  }
+  
+  struct msg_queue max;
+  max.type_msg = 1;
+  printf("Write Data : ");
+  fgets(max.content, MAX_VALUE , stdin);
+  msgsnd(msgid, &max, sizeof(max),0);
+  printf("Dato enviado es : %s \n", max.content);
+  return 0;
+}  
+```
