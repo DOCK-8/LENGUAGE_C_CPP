@@ -41,12 +41,12 @@ struct msg_queue{
 *msgsnd()* : agrega un nuevo mensaje a la cola  
 *msgrcv()* : accede a un mensaje de la cola one-get one-out  
 *msgctl()* : en lo general es usado para eliminar la cola de mensajes
-##EXAMPLE
+## EXAMPLE
 En este ejemplo lo que vamos hacer es una comunicacion entre procesos
 donde uno envia un mensaje que puede ser leido por otro, en este caso 
 se hace uso de un array de caracteres, para poder tener una variable 
 global entre procesos.
-###EMISOR
+### EMISOR
 ```
 #include <stdio.h>
 #include <sys/ipc.h>
