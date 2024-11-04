@@ -9,7 +9,16 @@ entre procesos;
 Entonces si el proceso A necesita que le preparen
 un platillo en especifico, el proceso B lo hara.
 
-##INICIALIZACION
+## INICIALIZACION
 Si conocemos ¿Qué es? entonces ahora es necesario saber como usarlo
 ### FUNCIONES
 **msgget()**
+Esta funcion permite abrir o crear una nueva cola de mensajes
+**msgnd()**
+Esta nos permite agregar un mensaje al final de la cola
+especificando su tamaño del mensaje 
+´´´
+<message> : contenor
+´´´
+
+
