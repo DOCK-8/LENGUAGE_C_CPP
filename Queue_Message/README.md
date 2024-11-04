@@ -35,9 +35,9 @@ struct msg_queue{
 };
 ```
 
-**glosary**
-*ftok()* : genera una unique key
-*msgget()* : genera o accede a una cola de mensajes
-*msgsnd()* : agrega un nuevo mensaje a la cola
-*msgrcv()* : accede a un mensaje de la cola one-get one-out
+## GLOSARY
+*ftok()* : genera una unique key  
+*msgget()* : genera o accede a una cola de mensajes  
+*msgsnd()* : agrega un nuevo mensaje a la cola  
+*msgrcv()* : accede a un mensaje de la cola one-get one-out  
 *msgctl()* : en lo general es usado para eliminar la cola de mensajes
