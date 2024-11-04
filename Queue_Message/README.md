@@ -17,14 +17,9 @@ Esta funcion permite abrir o crear una nueva cola de mensajes
 **msgsnd()**
 Esta nos permite agregar un mensaje al final de la cola
 especificando su tamaño del mensaje 
-```
-[message] : contenor
-```
 **msgrcv()**
 Este nos permite obtener mensajes de la cola, aclaracion como es una cola
 este sera: "Extraigo el primero que entro"
-```
-```
 ## MESSAGE
 **struct**
 ```
@@ -34,7 +29,6 @@ struct msg_queue{
   char content [MAX_VALUE];
 };
 ```
-
 ## GLOSARY
 *ftok()* : genera una unique key  
 *msgget()* : genera o accede a una cola de mensajes  
