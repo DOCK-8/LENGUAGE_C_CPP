@@ -17,8 +17,8 @@ Esta funcion permite abrir o crear una nueva cola de mensajes
 **msgnd()**
 Esta nos permite agregar un mensaje al final de la cola
 especificando su tamaño del mensaje 
-´´´
+'''
 <message> : contenor
-´´´
+```
 
 
