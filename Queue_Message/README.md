@@ -22,7 +22,7 @@ Este nos permite obtener mensajes de la cola, aclaracion como es una cola
 este sera: "Extraigo el primero que entro"
 ## MESSAGE
 **struct**
-```
+```c
 #define MAX_VALUE = 50
 struct msg_queue{
   long type_message;
@@ -41,7 +41,7 @@ donde uno envia un mensaje que puede ser leido por otro, en este caso
 se hace uso de un array de caracteres, para poder tener una variable 
 global entre procesos.
 ### EMISOR
-```
+```c
 #include <stdio.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
@@ -74,7 +74,7 @@ int main (int n, char** argv){
 }  
 ```
 ### RECEPTOR
-```
+```c
 #include <sys/ipc.h>
 #include <sys/msg.h>
 #include <stdio.h>
