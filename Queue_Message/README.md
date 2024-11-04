@@ -2,11 +2,11 @@
 ## QUEUE MESSAGE
 ¿Qué es? Esta es un libreta general :green_book:, donde podemos guardar
  informacion general entre procesos, de manera asincronica ***los procesos
- no necesitan ejecutarse simultaneamente*** :mantelpiece_clock:
- 🖥️ ↔️ 📩 ↔️ 🖥️
- **Es como utilizar una gran pizzarra donde cada usuario puede ver lo que hay escrita en ella**
- **PIZZARRA == MESSAGE QUEUE**
- 📦 => [ 📦 📦 📦 ... 📦 ] => ✉️ ➡️ 💻 
+ no necesitan ejecutarse simultaneamente*** :mantelpiece_clock:  
+ 🖥️ ↔️ 📩 ↔️ 🖥️  
+ **Es como utilizar una gran pizzarra donde cada usuario puede ver lo que hay escrita en ella**  
+ **PIZZARRA == MESSAGE QUEUE**  
+ 📦 => [ 📦 📦 📦 ... 📦 ] => ✉️ ➡️ 💻  
  **ACLARACIÓN** : ***Esta pizzara se comporta como una fila donde el primer paquete en entrar es el primero en salir***
 ## INICIALIZACION
 Si conocemos ¿Qué es? entonces ahora es necesario saber como usarlo
