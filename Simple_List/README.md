@@ -11,3 +11,4 @@ Usar template, parece confuso.
 Pero solo es para hacer entender al compilador que estas usando en tu codigo
  una clases generica, por lo tanto, no te olvides siempre aclarar que estas usando
  algo generico
+<img src = ".\IMG\TS.jpg">
