@@ -10,6 +10,7 @@ Usar template, parece confuso.
 ```
 Pero solo es para hacer entender al compilador que estas usando en tu codigo
  una clases generica, por lo tanto, no te olvides siempre aclarar que estas usando
- algo generico  ***No te olvides siempre hacerle entender al compilador lo que esta leyendo si
+ algo generico  
+ ***No te olvides siempre hacerle entender al compilador lo que esta leyendo si
   entendera algo horrible***
-<img src = ".\static\img\TS.jpg">
+<img src = ".\static\img\TS.jpg" alt="Template" width="300">
