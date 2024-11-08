@@ -1,7 +1,6 @@
 # SIMPLE LIST
-Para dar contexto, me dejaron crear una lista simple como practica, y 
-en el primer intento de crearlo tengo unas notas de que aprendi espero
- que te sirva
+Para dar contexto, me dejaron crear una lista simple como practica 📖.Y 
+en el primer intento de crear esta estructura, tengo unas notas podrian servir para repasar los templates 🧔
 # NOTES
 ## Templates
 Usar template, parece confuso.
