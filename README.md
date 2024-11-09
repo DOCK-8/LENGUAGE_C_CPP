@@ -5,7 +5,10 @@ no solo vemos una idea de sintaxis si no tambien pondremos en practica
 algunas estructuras, algoritmos, patrones, etc ...
 ## INDICE
 - [Introduction](#lenguage-c-c)
-- [Folder Struct]()
+- [Folder Struct](#folder-struct)
+  - [sources SRC](#src)
+  - [execute](#execute)
+  - [static](#static)
 ## FOLDER STRUCT
 ```plaintext
 Folder
