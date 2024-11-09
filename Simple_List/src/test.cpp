@@ -2,6 +2,7 @@
 
 int main(int n, char** arg){
   List lista("Hola");
-  std::cout << "El contenido del nodo es: " << lista.get_root()->get_content() << std::endl;
+  lista.add("PAPU");
+  std::cout << lista;
   return 0;
 }
